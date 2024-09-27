@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.fara.Employee.pojo.Employee&apos; to &apos;EmployeePojo&apos;&#x0D;&#x0A;- Original project: &apos;Employee&apos;&#x0D;&#x0A;- Original element: &apos;com.fara.Employee.pojo.Employee&apos;&#x0D;&#x0A;- Renamed element: &apos;com.fara.Employee.pojo.EmployeePojo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Employee&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.fara.Employee.pojo{Employee.java[Employee" matchStrategy="1" name="EmployeePojo" qualified="false" references="true" similarDeclarations="false" stamp="1724521240841" textual="false" version="1.0"/>
+</session>
