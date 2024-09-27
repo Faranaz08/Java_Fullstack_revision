@@ -17,8 +17,14 @@ output
 ![{74E901B8-DF4D-4F74-B79A-2C8FCD6F0043}](https://github.com/user-attachments/assets/ee8193ac-313e-4ca1-9a64-7a97e558f541)
 
 CRUD Operations 
+create table
 ![{514A6A47-2988-4D5F-ABB8-1EBCC9A3B7A8}](https://github.com/user-attachments/assets/7eb63ca8-ce88-41a9-b597-54b6e716fbcf)
 output
 ![{72024F06-5AA5-4C8F-AD60-3FB44E3515C0}](https://github.com/user-attachments/assets/67e619b1-f838-426a-9bd3-02e7944c30d0)
+
+
+Insert query
+![{45E7078B-87DD-400E-8CDF-33C602FEEC2B}](https://github.com/user-attachments/assets/51369c60-b0c4-4fe0-a49c-7f966c29b061)
+
 
 
