@@ -1,0 +1,36 @@
+package com.fsjava;
+
+import java.sql.*;
+
+
+public class AggreagateJDBC {
+ public static void main(String arg[]) throws Exception{
+	 //Register Driver
+	 Class.forName("com.mysql.cj.jdbc.Driver");
+	 
+	 //creating Connection Object
+	 String url="jdbc:mysql://localhost:3306/learn";
+	 String username="root";
+	 String password="faranaz";
+	 Connection con=DriverManager.getConnection(url,username,password);
+	 
+	 //creating statement Object
+	 Statement st=con.createStatement();
+	 
+	 
+	 
+	 
+	//4. Execute Query and Process the result
+	 String query = "select count (*), min (cgpa), max (cgpa), avg (cgpa), sum(copa) from student";
+	 ResultSet rs = st.executeQuery (query);
+	 while (rs.next()) {
+	 System.out.println("Count of records: "+ rs.getInt(1));
+	 System.out.println("Min CGPA: "+rs.getDouble (2));
+	 System.out.println("Max CGPA: "+rs.getDouble (3));
+	 System.out.println("Avergae CGPA: "+rs.getDouble (4));
+	 System.out.println("Sum of all CGPAS: "+rs.getDouble (5));
+	 }
+	 //close connecction
+	 con.close();
+ }
+}
