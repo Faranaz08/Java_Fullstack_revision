@@ -7,7 +7,7 @@ import java.sql.DriverManager;
 public class CRUDjdbc {
  public static void main(String args[]) throws Exception{
 	 //Registering Driver
-	 Class.forName("com.mysql.cj.jdbc.Driver");
+	 Class.forName("com.mysql.cj.jdbc.Driver"); 
 	 
 	 
 	 //Creating Connection Object

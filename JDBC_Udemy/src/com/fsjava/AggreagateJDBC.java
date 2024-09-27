@@ -8,7 +8,7 @@ public class AggreagateJDBC {
 	 //Register Driver
 	 Class.forName("com.mysql.cj.jdbc.Driver");
 	 
-	 //creating Connection Object
+	 //creating Connection Object 
 	 String url="jdbc:mysql://localhost:3306/learn";
 	 String username="root";
 	 String password="faranaz";
