@@ -30,6 +30,11 @@ Update query
 
 ![{D418868A-12E2-4562-B2CF-560685B7EB6A}](https://github.com/user-attachments/assets/c91483cc-1565-4863-9cf9-44e563f6d363)
 
+Delete query
+![{22175CA2-5434-494D-A0FD-FAEC038964D1}](https://github.com/user-attachments/assets/3bbf5cbb-43b3-42ea-a56d-f9272ca36f3c)
+
+
+
 
 
 
