@@ -33,6 +33,10 @@ Update query
 Delete query
 ![{22175CA2-5434-494D-A0FD-FAEC038964D1}](https://github.com/user-attachments/assets/3bbf5cbb-43b3-42ea-a56d-f9272ca36f3c)
 
+Read query
+![{87E203E4-F236-4D8A-BADE-1167F01DFFC7}](https://github.com/user-attachments/assets/3a65841e-3650-4f21-9181-9cba2d3992ec)
+
+
 
 
 
