@@ -1,0 +1,39 @@
+package com.fsjava;
+
+import java.sql.*;
+
+public class JDBCTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Registering driver
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//creating connection Object 
+		String url="jdbc:mysql://localhost:3306";
+		String username="root";
+		String password="faranaz";
+		try {
+			Connection con=DriverManager.getConnection(url,username,password);
+			if(con!=null) {
+				System.out.println("connection established")
+			}else {
+				System.out.println("connection not established")
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		//creating statement
+		
+		//execute query
+		// close connection
+		
+	}
+
+}
