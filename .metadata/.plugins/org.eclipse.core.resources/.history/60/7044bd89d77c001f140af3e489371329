@@ -1,0 +1,35 @@
+package com.fsjava;
+
+import java.sql.*;
+import java.sql.DriverManager;
+
+
+public class CRUDjdbc {
+ public static void main(String args[]) throws Exception{
+	 //Registering Driver
+	 Class.forName("com.mysql.cj.jdbc.Driver");
+	 
+	 
+	 //Creating Connection Object
+	 String url="jdbc:mysql://localhost:3306/learn";
+	 String username="root";
+	 String password="faranaz";
+	 Connection con=DriverManager.getConnection(url,username,password);
+	 
+	 //Creating statement
+	 Statement st=con.createStatement();	
+	 
+	 //Execute query 
+	//4. create a table
+	 String cq ="create table student (sid int primary key, sname varchar (20), cgpa float)";
+	int x= st.executeUpdate (cq);
+	 
+	 if (x >= 0) {
+		 System.out.println("Table Created");
+		 } else {
+		 System.out.println("Table not created due to some technical issue");
+		 }
+		 // close the connection
+	 	con.close();
+ }
+}
