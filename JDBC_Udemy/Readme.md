@@ -26,5 +26,10 @@ output
 Insert query
 ![{45E7078B-87DD-400E-8CDF-33C602FEEC2B}](https://github.com/user-attachments/assets/51369c60-b0c4-4fe0-a49c-7f966c29b061)
 
+Update query
+
+![{D418868A-12E2-4562-B2CF-560685B7EB6A}](https://github.com/user-attachments/assets/c91483cc-1565-4863-9cf9-44e563f6d363)
+
+
 
 
