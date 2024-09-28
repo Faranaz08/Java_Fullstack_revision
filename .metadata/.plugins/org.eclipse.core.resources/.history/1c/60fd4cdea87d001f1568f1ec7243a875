@@ -1,0 +1,30 @@
+package com.fsjava;
+import java.sql.*;
+public class PreparedStatementJDBC {
+	public static void main(String args[]) throws Exception {
+		//Registering the Driver
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		
+		//creating connection objeect
+		String url="jdbc:mysql://localhost:3306/learn";
+		String username="root";
+		String password="faranaz";
+		Connection con = DriverManager.getConnection(url,username,password);
+		
+		// Creating statement
+//		Statement st=con.createStatement();
+		
+		//execute query
+
+		// Prepared Statement - demo
+		String ql = "insert into student values (?,?,?)";
+		PreparedStatement pst = con.prepareStatement (ql);
+		pst.setInt(1, 301);
+		pst.setString (2, "David");
+		pst.setDouble (3, 9.1);
+		int x = pst.executeUpdate();
+		
+		//close connection
+		con.close();
+	}
+}
