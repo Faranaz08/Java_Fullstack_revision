@@ -42,8 +42,12 @@ Aggregate Function
 ![{9D14DD16-87E6-4C8E-86F0-C6EBDF318CB8}](https://github.com/user-attachments/assets/450f9aeb-e3d5-45cb-bc73-57329c9461eb)
 
 
-Statement - Prepared callable
+Statement - Prepared callable - stored fcuntion sqaure of two numbers
 ![{FDE75F72-BE61-4F2D-B21B-A0CB83ADFE04}](https://github.com/user-attachments/assets/cbcb585e-876b-4da1-ba9f-5495b901f73e)
+
+Stored function - sum of 2 numbers
+![{53CD1090-0825-4833-A40B-F54D634EA2CE}](https://github.com/user-attachments/assets/764ceb02-1171-4f10-b0a8-754409f73fa1)
+
 
 
 
