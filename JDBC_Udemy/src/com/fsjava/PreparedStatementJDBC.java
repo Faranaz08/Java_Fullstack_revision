@@ -18,7 +18,7 @@ public class PreparedStatementJDBC {
      // calling stored procedure
         String query = "{call first_proc1(?, ?)}"; // Calling procedure with two parameters
 
-        CallableStatement cst = con.prepareCall(query);
+        CallableStatement cst = con.prepareCall(query); 
 
         // Set the first parameter (input)
         cst.setInt(1, 15);  // First parameter is input
