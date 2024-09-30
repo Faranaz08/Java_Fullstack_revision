@@ -42,8 +42,25 @@ Aggregate Function
 ![{9D14DD16-87E6-4C8E-86F0-C6EBDF318CB8}](https://github.com/user-attachments/assets/450f9aeb-e3d5-45cb-bc73-57329c9461eb)
 
 
-Statement - Prepared callable
+Statement - Prepared callable - stored fcuntion sqaure of two numbers
 ![{FDE75F72-BE61-4F2D-B21B-A0CB83ADFE04}](https://github.com/user-attachments/assets/cbcb585e-876b-4da1-ba9f-5495b901f73e)
+
+Stored function - sum of 2 numbers
+![{53CD1090-0825-4833-A40B-F54D634EA2CE}](https://github.com/user-attachments/assets/764ceb02-1171-4f10-b0a8-754409f73fa1)
+
+![{B6B6C6E0-815C-4B07-9776-522FBFE1D617}](https://github.com/user-attachments/assets/dbc99cf4-931d-43f1-954a-8e3dc327bc37)
+
+
+Transaction managemenet 
+
+![{254D5A3C-19D4-422D-9769-00CB1305107E}](https://github.com/user-attachments/assets/99c1dd16-3e58-479d-a4cd-e4f659b942ed)
+
+Meta Data -database MD Result Set MD
+![{D855E658-8CCA-4749-9EF0-70D25C566A42}](https://github.com/user-attachments/assets/35303bb1-deb2-4901-9e07-65863165659d)
+
+
+
+
 
 
 
