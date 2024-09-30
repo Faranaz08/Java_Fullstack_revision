@@ -37,6 +37,17 @@ Read query
 ![{87E203E4-F236-4D8A-BADE-1167F01DFFC7}](https://github.com/user-attachments/assets/3a65841e-3650-4f21-9181-9cba2d3992ec)
 
 
+Aggregate Function
+
+![{9D14DD16-87E6-4C8E-86F0-C6EBDF318CB8}](https://github.com/user-attachments/assets/450f9aeb-e3d5-45cb-bc73-57329c9461eb)
+
+
+Statement - Prepared callable
+![{FDE75F72-BE61-4F2D-B21B-A0CB83ADFE04}](https://github.com/user-attachments/assets/cbcb585e-876b-4da1-ba9f-5495b901f73e)
+
+
+
+
 
 
 
