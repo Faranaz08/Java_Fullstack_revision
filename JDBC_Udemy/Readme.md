@@ -48,6 +48,9 @@ Statement - Prepared callable - stored fcuntion sqaure of two numbers
 Stored function - sum of 2 numbers
 ![{53CD1090-0825-4833-A40B-F54D634EA2CE}](https://github.com/user-attachments/assets/764ceb02-1171-4f10-b0a8-754409f73fa1)
 
+![{B6B6C6E0-815C-4B07-9776-522FBFE1D617}](https://github.com/user-attachments/assets/dbc99cf4-931d-43f1-954a-8e3dc327bc37)
+
+
 
 
 
