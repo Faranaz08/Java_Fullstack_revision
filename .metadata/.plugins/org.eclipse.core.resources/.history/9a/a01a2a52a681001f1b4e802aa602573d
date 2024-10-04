@@ -1,0 +1,38 @@
+package com.Mini;
+import java.util.*;
+import java.sql.*;
+public class Author {
+	private Connection connection;
+	public Author (Connection connection) {
+	this. connection = connection;
+	}
+	// Create operation for authors
+	public void addAuthor (String name) {
+	try {
+	String sql = "INSERT INTO authors (name) VALUES (?) ";
+	PreparedStatement statement = connection. prepareStatement (sql) ;
+	statement . setString (1, name) ;
+	statement . executeUpdate () ;
+	statement . close () ;
+	} catch (SQLException e) {
+	e.printStackTrace () ;
+	}}
+	
+	
+	// Update operation for authors
+	public void updateAuthor (int id, String newName) {
+	try {
+	String sql = "UPDATE authors SET name = ? WHERE id = ? ";
+	PreparedStatement statement = connection. prepareStatement (sql) ;
+	statement . setString (1, newName) ;
+	statement . setInt (2, id) ;
+	statement . executeUpdate () ;
+	statement . close () ;
+	} catch (SQLException e) {
+	e . printStackTrace () ;
+	}
+	}
+	// Delete operation for authors
+	public void deleteAuthor (int id) {
+	
+}
